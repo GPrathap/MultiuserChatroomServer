@@ -1,0 +1,10 @@
+
+run this two client and server seperatly in terminal.
+gcc -Wall -o c1 tcpClient1.c -pthread
+./c1 127.0.0.1
+
+gcc -Wall -o c1 tcpClient2.c -pthread
+./c2 127.0.0.1
+
+gcc -Wall -o s TCPserver.c -pthread
+./s 

@@ -1,0 +1,12 @@
+
+run this two client and server seperatly in terminal.
+
+nc locathost 32000 
+
+nc locathost 32000
+
+nc locathost 32000 < path to data2 file
+
+nc locathost 32000 < path to data1 file 
+
+then chech weather connecting and disconnection is work properly.

@@ -1,0 +1,21 @@
+
+run this two client and server seperatly in terminal.
+
+nc locathost 32000 > >a.txt
+
+nc locathost 32000 >> b.txt
+
+nc locathost 32000 >> c.txt
+
+nc locathost 32000 < path to data2 file 
+
+nc locathost 32000 < path to data1 file 
+
+then in command line 
+
+diff a.txt b.txt
+diff a.txt c.txt
+diff  b.txt c.txt
+
+
+
